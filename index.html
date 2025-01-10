@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('home-background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 85vh;
+            text-align: center;
+        }
+
+        .subjects {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .subjects li {
+            margin: 50px 0;
+        }
+
+        .subjects a {
+            text-decoration: none;
+            color: white;
+            font-size: 24px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .subjects a:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .signature {
+            position: fixed;
+            bottom: 190px;
+            right: 190px;
+            color: white;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: white;">Welcome to the Classroom</h1>
+	<h2 style="color: white;">Please choose one subject for it's information</h2>
+        <ul class="subjects">
+            <a href="english.html">English</a></li>
+            <a href="hindi.html">Hindi</a></li>
+            <a href="math.html">Math</a><li>
+            <a href="science.html">Science</a></li>
+            <a href="sst.html">SST</a></li>
+            <a href="marathi.html">Marathi</a></li>
+            <a href="artcraft.html">Art & Craft</a></li>
+        </ul>
+    </div>
+    <div class="signature">Designed By - Neel Sumit Lohade
+</div>
+</body>
+</html>
